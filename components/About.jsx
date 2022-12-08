@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function About() {
   return (
-    <div className="w-full md:h-screen p-2 flex items-center py-16">
+    <div id="About" className="flex items-center w-full p-2 py-16 md:h-screen">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
         <div className="col-span-2">
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
@@ -37,7 +37,7 @@ function About() {
             </p>
           </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex justify-center items-center p-4 hover:scale-105 ease-in duration-100">
+        <div className="flex items-center justify-center w-full h-auto p-4 m-auto duration-100 ease-in shadow-xl shadow-gray-400 rounded-xl hover:scale-105">
           <img className="rounded-xl" src="/assets/about.jpg" alt="" />
         </div>
       </div>

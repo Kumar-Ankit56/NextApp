@@ -5,6 +5,7 @@ import Main from "../components/Main";
 import About from "../components/About";
 import Skill from "../components/Skill";
 import Project from "../components/Project";
+import Contact from "../components/Contact";
 function Home() {
   return (
     <div>
@@ -17,6 +18,7 @@ function Home() {
       <About />
       <Skill />
       <Project />
+      <Contact />
     </div>
   );
 }
