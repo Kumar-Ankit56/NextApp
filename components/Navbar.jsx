@@ -46,12 +46,16 @@ function Navbar() {
         </div>
       </div>
       <div
-        className={!nav ? "fixed left-0 top-0 w-full h-screen bg-black/70" : ""}
+        className={
+          !nav
+            ? " md:hidden fixed left-0 top-0 w-full h-screen bg-black/70"
+            : ""
+        }
       >
         <div
           className={
             !nav
-              ? "fixed left-0 top-0 w-[75%] sm:w-[65%]  md:w-[45%] h-screen bg-[#ecf0f3] p-7 ease-in duration-500 z-50"
+              ? "md:hidden fixed left-0 top-0 w-[75%] sm:w-[65%]  md:w-[45%] h-screen bg-[#ecf0f3] p-7 ease-in duration-500 z-50"
               : "fixed left-[-100%] p-7 ease-in duration-500 z-50"
           }
         >
