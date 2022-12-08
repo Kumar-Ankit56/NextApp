@@ -16,12 +16,12 @@ function Project() {
           <ProjectItem
             title="PropertyFinder"
             backgroundImg={propertyImg}
-            projecturl="/property"
+            projecturl="/Property"
           />
           <ProjectItem
-            title="PropertyFinder"
+            title="NetFlix"
             backgroundImg={propertyImg}
-            projecturl="/property"
+            projecturl="/Netflix"
           />
           <ProjectItem
             title="PropertyFinder"
