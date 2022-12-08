@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import About from "../components/About";
 import Skill from "../components/Skill";
+import Project from "../components/Project";
 function Home() {
   return (
     <div>
@@ -15,6 +16,7 @@ function Home() {
       <Main />
       <About />
       <Skill />
+      <Project />
     </div>
   );
 }
